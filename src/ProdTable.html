@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <link rel="stylesheet" href="ProdTable.css">
+
+</head>
+<body>
+    <div>
+        <form>
+            <label for="id">Product Id</label>
+            <input type="number" class="text-field" id="ID" name="id">
+            <br>
+            <label for="name">Product Name</label>
+            <input type="text" class="text-field" id="Name" name="name">
+            <br>
+            <label for="price">Product Price</label>
+            <input type="number" class="text-field" id="Price" name="price">
+            <br>
+            <input type="button" id="Button" onclick="Function()" value="ADD"> 
+        </form>
+    </div>
+    <div>
+        <table id="table1"></table>
+    </div>
+    <script src="ProdTable.js"></script>
+</body>
+</html>
